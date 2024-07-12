@@ -1,0 +1,12 @@
+{
+  "entryPoints": ["src/hooks"],
+  "entryPointStrategy": "expand",
+  "out": "docs",
+  "name": "React Hook Kit",
+  "includeVersion": true,
+  "excludePrivate": true,
+  "excludeProtected": true,
+  "excludeExternals": true,
+  "readme": "README.md",
+  "theme": "default"
+}

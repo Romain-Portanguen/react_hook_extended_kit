@@ -1,0 +1,37 @@
+import { renderHook } from '@testing-library/react-hooks';
+import { usePrevious } from '../hooks/use-previous';
+
+describe('usePrevious hook', () => {
+  it('should return undefined on initial render', () => {
+    const { result } = renderHook(() => usePrevious(0));
+    expect(result.current).toBeUndefined();
+  });
+
+  it('should return previous value after update', () => {
+    const { result, rerender } = renderHook(
+      ({ value }) => usePrevious(value),
+      { initialProps: { value: 0 } },
+    );
+
+    rerender({ value: 1 });
+    expect(result.current).toBe(0);
+
+    rerender({ value: 2 });
+    expect(result.current).toBe(1);
+  });
+
+  it('should return previous value for objects', () => {
+    const { result, rerender } = renderHook(
+      ({ value }) => usePrevious(value),
+      { initialProps: { value: { count: 0 } } },
+    );
+
+    const newValue = { count: 1 };
+    rerender({ value: newValue });
+    expect(result.current).toEqual({ count: 0 });
+
+    const newerValue = { count: 2 };
+    rerender({ value: newerValue });
+    expect(result.current).toEqual(newValue);
+  });
+});
