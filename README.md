@@ -1,12 +1,8 @@
-<p align="center">
-  <img src="https://cdn-icons-png.flaticon.com/512/6295/6295417.png" width="100" alt="project-logo">
-</p>
-<p align="center">
-    <h1 align="center">REACT_HOOK_KIT</h1>
-</p>
-<p align="center">
+![](https://github.com/Romain-Portanguen/react_hook_kit/blob/e42acf3c0dba1a654babb2aa813869b779506e8d/src/public/assets/react_hook%20kit.png)
+
+<h3 align="center">
     <em>Empowering React with hooks of boundless potential.</em>
-</p>
+</h3>
 <p align="center">
  <img src="https://img.shields.io/github/last-commit/Romain-Portanguen/react_hook_kit?style=plastic&logo=git&logoColor=white&color=0080ff" alt="last-commit">
  <img src="https://img.shields.io/github/languages/top/Romain-Portanguen/react_hook_kit?style=plastic&color=0080ff" alt="repo-top-language">
