@@ -1,5 +1,5 @@
 {
-  "name": "react-hook-kit",
+  "name": "react-hook-extended-kit",
   "version": "1.0.0",
   "description": "A utility library with a centralized collection of custom React hooks.",
   "main": "dist/index.js",
