@@ -4,3 +4,8 @@ export { useLocalStorage } from './hooks/use-local-storage';
 export { useDebounce } from './hooks/use-debounce';
 export { useThrottle } from './hooks/use-throttle';
 export { useFetch } from './hooks/use-fetch';
+export { usePrevious } from './hooks/use-previous';
+export { useDarkMode } from './hooks/use-dark-mode';
+export { useMediaQuery } from './hooks/use-media-query';
+export { useWindowSize } from './hooks/use-window-size';
+export { useOnlineStatus } from './hooks/use-online-status';
