@@ -158,7 +158,7 @@ React Hook Kit is a utility library with a centralized collection of custom Reac
 > Run react_hook_kit using the command below:
 >
 > ```console
-> $ npm run build && node dist/main.js
+> $ npm run build && node dist/index.js
 > ```
 
 ### 🧪 Tests
@@ -166,7 +166,7 @@ React Hook Kit is a utility library with a centralized collection of custom Reac
 > Run the test suite using the command below:
 >
 > ```console
-> $ npm test
+> $ npm run test
 > ```
 
 ---
