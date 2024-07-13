@@ -1,21 +1,5 @@
 import { useState, useEffect } from 'react';
 
-export const useDebounce = <T,>(value: T, delay: number): T => {
-  const [debouncedValue, setDebouncedValue] = useState<T>(value);
-
-  useEffect(() => {
-    const handler = setTimeout(() => {
-      setDebouncedValue(value);
-    }, delay);
-
-    return () => {
-      clearTimeout(handler);
-    };
-  }, [value, delay]);
-
-  return debouncedValue;
-};
-
 /**
  * A custom hook that debounces a value.
  *
@@ -26,7 +10,7 @@ export const useDebounce = <T,>(value: T, delay: number): T => {
  * @example
  * ```tsx
  * import React, { useState } from 'react';
- * import { useDebounce } from './hooks/useDebounce';
+ * import { useDebounce } from './hooks/use-debounce';
  *
  * const DebounceComponent: React.FC = () => {
  *   const [value, setValue] = useState('');
@@ -48,3 +32,19 @@ export const useDebounce = <T,>(value: T, delay: number): T => {
  * export default DebounceComponent;
  * ```
  */
+
+export const useDebounce = <T>(value: T, delay: number): T => {
+  const [debouncedValue, setDebouncedValue] = useState<T>(value);
+
+  useEffect(() => {
+    const handler = setTimeout(() => {
+      setDebouncedValue(value);
+    }, delay);
+
+    return () => {
+      clearTimeout(handler);
+    };
+  }, [value, delay]);
+
+  return debouncedValue;
+};

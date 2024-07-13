@@ -1,5 +1,5 @@
 import { renderHook, act } from '@testing-library/react';
-import { useWindowSize } from '../hooks/use-window-size';
+import { useWindowSize } from './use-window-size';
 
 describe('useWindowSize hook', () => {
   it('should return current window size', () => {

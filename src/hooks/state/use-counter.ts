@@ -1,15 +1,5 @@
 import { useState } from 'react';
 
-export const useCounter = (initialValue: number = 0): [number, () => void, () => void, () => void] => {
-  const [count, setCount] = useState(initialValue);
-
-  const increment = () => setCount(prevCount => prevCount + 1);
-  const decrement = () => setCount(prevCount => prevCount - 1);
-  const reset = () => setCount(initialValue);
-
-  return [count, increment, decrement, reset];
-};
-
 /**
  * A custom hook that provides a counter state with increment, decrement, and reset functions.
  *
@@ -19,7 +9,7 @@ export const useCounter = (initialValue: number = 0): [number, () => void, () =>
  * @example
  * ```tsx
  * import React from 'react';
- * import { useCounter } from './hooks/useCounter';
+ * import { useCounter } from './hooks/use-counter';
  *
  * const CounterComponent: React.FC = () => {
  *   const [count, increment, decrement, reset] = useCounter(0);
@@ -37,3 +27,15 @@ export const useCounter = (initialValue: number = 0): [number, () => void, () =>
  * export default CounterComponent;
  * ```
  */
+
+export const useCounter = (
+  initialValue: number = 0,
+): [number, () => void, () => void, () => void] => {
+  const [count, setCount] = useState<number>(initialValue);
+
+  const increment = () => setCount((prevCount) => prevCount + 1);
+  const decrement = () => setCount((prevCount) => prevCount - 1);
+  const reset = () => setCount(initialValue);
+
+  return [count, increment, decrement, reset];
+};

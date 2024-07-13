@@ -1,5 +1,5 @@
-import { renderHook, act } from '@testing-library/react';
-import { usePrevious } from '../hooks/use-previous';
+import { renderHook } from '@testing-library/react';
+import { usePrevious } from './use-previous';
 
 describe('usePrevious hook', () => {
   it('should return undefined on initial render', () => {
@@ -8,10 +8,9 @@ describe('usePrevious hook', () => {
   });
 
   it('should return previous value after update', () => {
-    const { result, rerender } = renderHook(
-      ({ value }) => usePrevious(value),
-      { initialProps: { value: 0 } }
-    );
+    const { result, rerender } = renderHook(({ value }) => usePrevious(value), {
+      initialProps: { value: 0 },
+    });
     expect(result.current).toBe(undefined);
 
     rerender({ value: 1 });
@@ -22,10 +21,9 @@ describe('usePrevious hook', () => {
   });
 
   it('should return previous value for objects', () => {
-    const { result, rerender } = renderHook(
-      ({ value }) => usePrevious(value),
-      { initialProps: { value: { count: 0 } } }
-    );
+    const { result, rerender } = renderHook(({ value }) => usePrevious(value), {
+      initialProps: { value: { count: 0 } },
+    });
 
     const newValue = { count: 1 };
     rerender({ value: newValue });

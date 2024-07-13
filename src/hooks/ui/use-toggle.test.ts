@@ -1,5 +1,5 @@
 import { renderHook, act } from '@testing-library/react-hooks';
-import { useToggle } from '../hooks/use-toggle';
+import { useToggle } from './use-toggle';
 
 describe('useToggle hook', () => {
   it('should initialize with default value false', () => {
@@ -30,5 +30,11 @@ describe('useToggle hook', () => {
     });
 
     expect(result.current[0]).toBe(false);
+  });
+
+  it('should initialize with custom initial value', () => {
+    const { result } = renderHook(() => useToggle(true));
+
+    expect(result.current[0]).toBe(true);
   });
 });

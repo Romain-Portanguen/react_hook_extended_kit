@@ -1,5 +1,5 @@
-import { renderHook, act } from '@testing-library/react';
-import { useOnlineStatus } from '../hooks/use-online-status';
+import { renderHook, act } from '@testing-library/react-hooks';
+import { useOnlineStatus } from './use-online-status';
 
 describe('useOnlineStatus hook', () => {
   it('should return true when online', () => {

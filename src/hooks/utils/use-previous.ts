@@ -1,13 +1,5 @@
 import { useRef, useEffect } from 'react';
 
-export const usePrevious = <T,>(value: T): T | undefined => {
-  const ref = useRef<T>();
-  useEffect(() => {
-    ref.current = value;
-  }, [value]);
-  return ref.current;
-};
-
 /**
  * A custom hook that returns the previous value of a variable.
  *
@@ -17,7 +9,7 @@ export const usePrevious = <T,>(value: T): T | undefined => {
  * @example
  * ```tsx
  * import React, { useState } from 'react';
- * import { usePrevious } from './hooks/usePrevious';
+ * import { usePrevious } from './hooks/use-previous';
  *
  * const PreviousComponent: React.FC = () => {
  *   const [count, setCount] = useState(0);
@@ -35,3 +27,13 @@ export const usePrevious = <T,>(value: T): T | undefined => {
  * export default PreviousComponent;
  * ```
  */
+
+export const usePrevious = <T>(value: T): T | undefined => {
+  const ref = useRef<T>();
+
+  useEffect(() => {
+    ref.current = value;
+  }, [value]);
+
+  return ref.current;
+};

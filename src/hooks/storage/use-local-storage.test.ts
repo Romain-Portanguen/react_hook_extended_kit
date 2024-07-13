@@ -1,5 +1,5 @@
 import { renderHook, act } from '@testing-library/react-hooks';
-import { useLocalStorage } from '../hooks/use-local-storage';
+import { useLocalStorage } from './use-local-storage';
 
 describe('useLocalStorage hook', () => {
   beforeEach(() => {
@@ -27,9 +27,11 @@ describe('useLocalStorage hook', () => {
   });
 
   it('should handle errors when accessing localStorage', () => {
-    const mockGetItem = jest.spyOn(Storage.prototype, 'getItem').mockImplementation(() => {
-      throw new Error('Failed to get item');
-    });
+    const mockGetItem = jest
+      .spyOn(Storage.prototype, 'getItem')
+      .mockImplementation(() => {
+        throw new Error('Failed to get item');
+      });
 
     const { result } = renderHook(() => useLocalStorage('key', 'default'));
     expect(result.current[0]).toBe('default');
@@ -38,9 +40,11 @@ describe('useLocalStorage hook', () => {
   });
 
   it('should handle errors when setting localStorage', () => {
-    const mockSetItem = jest.spyOn(Storage.prototype, 'setItem').mockImplementation(() => {
-      throw new Error('Failed to set item');
-    });
+    const mockSetItem = jest
+      .spyOn(Storage.prototype, 'setItem')
+      .mockImplementation(() => {
+        throw new Error('Failed to set item');
+      });
 
     const { result } = renderHook(() => useLocalStorage('key', 'default'));
     act(() => {

@@ -1,13 +1,16 @@
 import { renderHook, act } from '@testing-library/react-hooks';
-import { useDebounce } from '../hooks/use-debounce';
+import { useDebounce } from './use-debounce';
 
 jest.useFakeTimers();
 
 describe('useDebounce hook', () => {
   it('should debounce value', () => {
-    const { result, rerender } = renderHook(({ value, delay }) => useDebounce(value, delay), {
-      initialProps: { value: 'initial', delay: 500 },
-    });
+    const { result, rerender } = renderHook(
+      ({ value, delay }) => useDebounce(value, delay),
+      {
+        initialProps: { value: 'initial', delay: 500 },
+      },
+    );
 
     expect(result.current).toBe('initial');
 

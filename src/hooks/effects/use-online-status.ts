@@ -1,5 +1,25 @@
 import { useState, useEffect } from 'react';
 
+/**
+ * Custom hook to track the online status of the browser.
+ *
+ * @returns {boolean} A boolean indicating if the browser is online.
+ *
+ * @example
+ * ```tsx
+ * import React from 'react';
+ * import { useOnlineStatus } from './hooks/use-online-status';
+ *
+ * const OnlineStatusComponent: React.FC = () => {
+ *   const isOnline = useOnlineStatus();
+ *
+ *   return <p>{isOnline ? 'Online' : 'Offline'}</p>;
+ * };
+ *
+ * export default OnlineStatusComponent;
+ * ```
+ */
+
 export const useOnlineStatus = (): boolean => {
   const [online, setOnline] = useState<boolean>(navigator.onLine);
 
@@ -18,23 +38,3 @@ export const useOnlineStatus = (): boolean => {
 
   return online;
 };
-
-/**
- * A custom hook that returns the online status of the browser.
- *
- * @returns A boolean indicating if the browser is online.
- *
- * @example
- * ```tsx
- * import React from 'react';
- * import { useOnlineStatus } from './hooks/useOnlineStatus';
- *
- * const OnlineStatusComponent: React.FC = () => {
- *   const isOnline = useOnlineStatus();
- *
- *   return <p>{isOnline ? 'Online' : 'Offline'}</p>;
- * };
- *
- * export default OnlineStatusComponent;
- * ```
- */
