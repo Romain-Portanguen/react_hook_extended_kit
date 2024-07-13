@@ -1,4 +1,4 @@
-![](https://github.com/Romain-Portanguen/react_hook_kit/blob/e42acf3c0dba1a654babb2aa813869b779506e8d/src/public/assets/react_hook%20kit.png)
+![](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/443e78e3101544898279be4806a2e15546613e27/src/public/assets/react_hook_extended_kit.png)
 
 <h3 align="center">
     <em>Empowering React with hooks of boundless potential.</em>
