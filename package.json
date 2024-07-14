@@ -1,6 +1,6 @@
 {
   "name": "react-hook-extended-kit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A utility library with a centralized collection of custom React hooks.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
