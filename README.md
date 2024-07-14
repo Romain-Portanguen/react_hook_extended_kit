@@ -44,6 +44,12 @@
 </details>
 <hr>
 
+## 📑 Full documentation
+
+[RHEK - React Hook Extended Kit](https://romain-portanguen.github.io/rhek_docs/)
+
+--- 
+
 ## 📍 Overview
 
 React Hook Extended Kit is a comprehensive utility library aimed at enhancing React applications with a collection of custom hooks. Developed by Romain Portanguen under the MIT License, it introduces advanced functionalities like state management, online status monitoring, dark mode implementation, and performance optimization. By simplifying integration of features such as window resizing, media queries, and clipboard interactions, this open-source project streamlines frontend development, offering developers a robust toolkit to augment their React projects efficiently.
