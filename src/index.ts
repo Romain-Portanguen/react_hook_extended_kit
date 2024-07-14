@@ -9,3 +9,6 @@ export { useDarkMode } from './hooks/ui/use-dark-mode';
 export { useMediaQuery } from './hooks/ui/use-media-query';
 export { useWindowSize } from './hooks/ui/use-window-size';
 export { useOnlineStatus } from './hooks/effects/use-online-status';
+export { useClickOutside } from './hooks/dom/use-click-outside';
+export { useInterval } from './hooks/timing/use-interval';
+export { useClipboard } from './hooks/utils/use-clipboard';
