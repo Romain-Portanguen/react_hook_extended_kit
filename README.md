@@ -3,33 +3,21 @@
 <h3 align="center">
     <em>Empowering React with hooks of boundless potential.</em>
 </h3>
-
 <p align="center">
- <img src="https://img.shields.io/github/license/Romain-Portanguen/react_hook_extended_kit?style=plastic&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
- <img src="https://img.shields.io/github/last-commit/Romain-Portanguen/react_hook_extended_kit?style=plastic&logo=git&logoColor=white&color=0080ff" alt="last-commit">
- <img src="https://img.shields.io/github/languages/top/Romain-Portanguen/react_hook_extended_kit?style=plastic&color=0080ff" alt="repo-top-language">
- <img src="https://img.shields.io/github/languages/count/Romain-Portanguen/react_hook_extended_kit?style=plastic&color=0080ff" alt="repo-language-count">
-<p>
+	<!-- Shields.io badges not used with skill icons. --><p>
 <p align="center">
-  <em>Developed with the software and tools below.</em>
+		<em>Developed with the software and tools below.</em>
 </p>
 <p align="center">
- <img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=plastic&logo=JavaScript&logoColor=black" alt="JavaScript">
- <img src="https://img.shields.io/badge/Prettier-F7B93E.svg?style=plastic&logo=Prettier&logoColor=black" alt="Prettier">
- <img src="https://img.shields.io/badge/YAML-CB171E.svg?style=plastic&logo=YAML&logoColor=white" alt="YAML">
- <img src="https://img.shields.io/badge/Jest-C21325.svg?style=plastic&logo=Jest&logoColor=white" alt="Jest">
- <img src="https://img.shields.io/badge/React-61DAFB.svg?style=plastic&logo=React&logoColor=black" alt="React">
- <br>
- <img src="https://img.shields.io/badge/ESLint-4B32C3.svg?style=plastic&logo=ESLint&logoColor=white" alt="ESLint">
- <img src="https://img.shields.io/badge/tsnode-3178C6.svg?style=plastic&logo=ts-node&logoColor=white" alt="tsnode">
- <img src="https://img.shields.io/badge/TypeScript-3178C6.svg?style=plastic&logo=TypeScript&logoColor=white" alt="TypeScript">
- <img src="https://img.shields.io/badge/JSON-000000.svg?style=plastic&logo=JSON&logoColor=white" alt="JSON">
-</p>
+	<a href="https://skillicons.dev">
+		<img src="https://skillicons.dev/icons?i=js,jest,md,react,ts">
+	</a></p>
 
 <br><!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary><br>
 
+- [📑 Official documentation](#-official-documentation)
 - [📍 Overview](#-overview)
 - [🧩 Features](#-features)
 - [🗂️ Repository Structure](#️-repository-structure)
@@ -40,11 +28,10 @@
   - [🧪 Tests](#-tests)
 - [🤝 Contributing](#-contributing)
 - [🎗 License](#-license)
-
 </details>
 <hr>
 
-## 📑 Full documentation
+## 📑 Official documentation
 
 [RHEK - React Hook Extended Kit](https://romain-portanguen.github.io/rhek_docs/)
 
@@ -52,39 +39,45 @@
 
 ## 📍 Overview
 
-React Hook Extended Kit is a comprehensive utility library aimed at enhancing React applications with a collection of custom hooks. Developed by Romain Portanguen under the MIT License, it introduces advanced functionalities like state management, online status monitoring, dark mode implementation, and performance optimization. By simplifying integration of features such as window resizing, media queries, and clipboard interactions, this open-source project streamlines frontend development, offering developers a robust toolkit to augment their React projects efficiently.
+React Hook Extended Kit is a comprehensive utility library aimed at enhancing React applications with a collection of custom hooks. Developed by Romain Portanguen under the MIT licence, it introduces advanced features such as state management, online state tracking, dark mode implementation, performance optimisation and more. By simplifying the integration of features such as window resizing, media queries and clipboard interactions, this open-source project streamlines front-end development and provides a valuable resource for developers looking to efficiently enhance their React projects.
 
 ---
 
 ## 🧩 Features
 
-|     | Feature           | Description                                                                                                                                                                                                                                |
-|-----|-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ⚙️  | **Architecture**  | The project is built with React and TypeScript, providing a collection of custom React hooks aimed at extending the capabilities of React applications. It follows a modular architecture promoting code reusability.                      |
-| 🔩  | **Code Quality**  | The codebase maintains high quality and adheres to best practices in React and TypeScript development. It includes linting, type checking, and coverage reporting for ensuring code reliability.                                           |
-| 📄  | **Documentation** | The project features detailed documentation generated using typedoc, emphasizing public API while excluding private details. This enhances code understanding and facilitates easy integration for developers.                             |
-| 🔌  | **Integrations**  | Key external dependencies include Jest, ESLint, Babel, Prettier, and various React-related libraries for testing, linting, and transpilation tasks. These integrations enhance the development workflow and tooling support.               |
-| 🧩  | **Modularity**    | The codebase is structured in a modular way, with each custom hook providing specific functionality that can be easily integrated into React components. This promotes code reusability and maintainability.                               |
-| 🧪  | **Testing**       | Testing is conducted using Jest and @testing-library/react for comprehensive unit and integration testing. The project includes tests for each custom hook to ensure functionality and reliability.                                        |
-| ⚡️  | **Performance**   | The project focuses on efficiency and performance, as seen in the minify script that optimizes code for production deployment. Custom hooks like use-throttle and use-debounce enhance user interactions and reduce unnecessary rendering. |
-| 🛡️ | **Security**      | Security measures include managing dark mode state using localStorage and clipboard actions with proper access control. The use of localStorage for certain hooks ensures data protection and secure interactions.                         |
-| 📦  | **Dependencies**  | Key dependencies include TypeScript, Jest, React, ESLint, Prettier, and other utility libraries for enhancing development processes. These libraries extend the project's capabilities and support various functionalities.                |
+|     | Feature           | Description                                                                                                                                                                                                                                                                                                                                                        |
+|-----|-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ⚙️  | **Architecture**  | The project adopts a modular architecture with centralized hooks collection, efficient testing configurations, and streamlined entry points. This architecture enhances extensibility and integration in React projects.                                                                                                                                           |
+| 🔩  | **Code Quality**  | The codebase maintains high code quality and adheres to best practices with consistent formatting, linting, and testing. It follows TypeScript standards and leverages efficient code minification techniques.                                                                                                                                                     |
+| 📄  | **Documentation** | The project provides comprehensive documentation through the generation of documentation via the Typedoc API, type definitions and clear online comments. This improves readability and ease of use for developers using the repository; in addition, a full version of the documentation is also available in a Docsify interface. Link available in description. |
+| 🔌  | **Integrations**  | Key integrations include Jest for testing, TypeScript for typing, and ESLint for code analysis. These integrations streamline development processes and ensure code correctness.                                                                                                                                                                                   |
+| 🧩  | **Modularity**    | The codebase demonstrates high modularity with each hook encapsulated as a separate module, promoting code reusability and easy maintenance in React projects.                                                                                                                                                                                                     |
+| 🧪  | **Testing**       | Testing frameworks and tools like Jest, React Testing Library, and @testing-library/react-hooks are used to ensure robust test coverage and maintain code reliability.                                                                                                                                                                                             |
+| ⚡️  | **Performance**   | The project emphasizes efficiency through minification scripts, throttle and debounce hooks for performance optimization, and clean event handling for improved responsiveness.                                                                                                                                                                                    |
+| 🛡️ | **Security**      | Data protection measures include local/session storage handling, event listener management, and error handling to prevent unauthorized access and ensure secure data management.                                                                                                                                                                                   |
+| 📦  | **Dependencies**  | Key external libraries and dependencies include Prettier, TypeScript, ESLint, Jest, and various testing utilities. These libraries enhance development workflows and maintain code quality.                                                                                                                                                                        |
+| 🚀  | **Scalability**   | The project exhibits scalability with hooks catering to varied functionalities, state management, performance optimization, and user interaction handling, supporting increased traffic and load demands efficiently.                                                                                                                                              |
 
 ---
 
 ## 🗂️ Repository Structure
 
 ```sh
-└── react_hook_kit/
+└── react_hook_extended_kit/
+    ├── .github
+    │   └── FUNDING.yml
+    ├── LICENSE
     ├── README.md
-    ├── babel.config.js
+    ├── babel.config.cjs
     ├── jestconfig.ts
     ├── package-lock.json
     ├── package.json
+    ├── scripts
+    │   └── minify.js
     ├── src
     │   ├── hooks
     │   ├── index.ts
-    │   └── tests
+    │   └── public
     ├── tsconfig.json
     └── typedoc.json
 ```
@@ -95,129 +88,141 @@ React Hook Extended Kit is a comprehensive utility library aimed at enhancing Re
 
 <details closed><summary>.</summary>
 
-| File                                                                                                            | Summary                                                                                                                                                                                                                                                                                                                |
-|-----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [jestconfig.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/jestconfig.ts)         | Configures Jest test runner to transform and execute TypeScript files in the src directory. Sets up coverage reporting, test environments, and file extensions for comprehensive testing.                                                                                                                              |
-| [package-lock.json](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/package-lock.json) | The code file in `src/hooks` directory enhances the functionality of the parent repository by providing a collection of custom React hooks. These hooks are designed to extend the capabilities of React applications, allowing developers to easily integrate advanced features and streamline development processes. |
-| [package.json](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/package.json)           | Orchestrates building, testing, and documentation tasks.-Manages React hook utility library dependencies.-Enables minification, linting, and coverage reports.-Facilitates code formatting and type checking.-Developed by Romain Portanguen under MIT License.                                                        |
-| [typedoc.json](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/typedoc.json)           | Generates React Hook Kit documentation with expanded entry points from src/hooks, emphasizing public API and excluding private/protected details. Output named React Hook Kit includes version, theme, directs to README.md.                                                                                           |
-| [tsconfig.json](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/tsconfig.json)         | Defines compiler options for ES6 target and React JSX in the TypeScript project. Specifies module settings, directories, strict typing, and module resolution for seamless code integration within the React Hook Extended Kit repository.                                                                             |
-| [babel.config.cjs](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/babel.config.cjs)   | Enables Babel configuration for React and TypeScript presets with the plugin for runtime transformation. Complements the repositorys architecture for optimizing code compilation and compatibility in the React Hook Extended Kit open-source project.                                                                |
+| File                                                                                                            | Summary                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|-----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [jestconfig.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/jestconfig.ts)         | Implements Jest configuration in the react_hook_extended_kit repo. Defines test environment, file transformations, coverage settings, and more for efficient testing.                                                                                                                                                                                                                                                                                                           |
+| [package-lock.json](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/package-lock.json) | The code file in `react_hook_extended_kit/src/index.ts` serves as the central entry point for the React Hook Extended Kit repository. It acts as a bridge, organizing and exporting essential functions and utilities from various hook modules within the project. By consolidating these hooks, the `index.ts` file streamlines access to the extended functionalities provided by the repository, fostering easier integration and enhanced extensibility in React projects. |
+| [package.json](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/package.json)           | Defines utility for React hooks, enhances with centralized hooks collection, emphasizes build, test automation, and documentation, enabling seamless integration and maintenance.                                                                                                                                                                                                                                                                                               |
+| [typedoc.json](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/typedoc.json)           | Generates API documentation for React Hook Extended Kit by specifying entry points and theme. Excludes private, protected, and external items, enhancing readability and usability for developers.                                                                                                                                                                                                                                                                              |
+| [tsconfig.json](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/tsconfig.json)         | Optimize TypeScript configuration for React project to enforce strict typing and ES6 features. Set up module resolution, JSX support, and output directory. Exclude test files for cleaner build output.                                                                                                                                                                                                                                                                        |
+| [babel.config.cjs](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/babel.config.cjs)   | Enables Babel presets and plugin for React, TypeScript, and environment configuration in the repository.                                                                                                                                                                                                                                                                                                                                                                        |
 
 </details>
 
 <details closed><summary>scripts</summary>
 
-| File                                                                                                    | Summary                                                                                                                                                                                                                 |
-|---------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [minify.js](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/scripts/minify.js) | Minify script recursively compresses JavaScript files in the dist directory using Terser. It enhances the repository by reducing file sizes and optimizing code for production deployment, ensuring better performance. |
+| File                                                                                                    | Summary                                                                                                                                                                               |
+|---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [minify.js](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/scripts/minify.js) | Implement minification for JavaScript files within the dist directory. This script reads, minifies, and writes files using Terser. Automatically applies to all.js files recursively. |
 
 </details>
 
 <details closed><summary>.github</summary>
 
-| File                                                                                                        | Summary                                                                                                                                                                                                       |
-|-------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [FUNDING.yml](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/.github/FUNDING.yml) | Specifies funding platforms for sponsorships within the repo, enabling financial support via various channels like GitHub Sponsors, Patreon, Ko-fi, and custom URLs for project contributors and maintainers. |
+| File                                                                                                        | Summary                                                                                                                                                                                                                                             |
+|-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [FUNDING.yml](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/.github/FUNDING.yml) | Enables sponsorship options for the repository through various funding platforms like GitHub Sponsors, Patreon, and others by specifying usernames or links. Facilitates community support and financial contributions for the open-source project. |
 
 </details>
 
 <details closed><summary>src</summary>
 
-| File                                                                                              | Summary                                                                                                                                                                                                                                                                                                           |
-|---------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [index.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/index.ts) | Exports various custom hooks for UI, state management, storage, performance optimization, network requests, utilities, dark mode, media queries, window size, online status, DOM handling, timing events, and clipboard functionality. Enhances the parent repository with diverse frontend-focused capabilities. |
+| File                                                                                              | Summary                                                                                                                                                                                                                                 |
+|---------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [index.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/index.ts) | Exports essential custom hooks for various functionalities in the parent repository. These hooks enhance user experience by providing features like click handling, state management, dark mode, network requests, and storage options. |
 
 </details>
 
 <details closed><summary>src.hooks.ui</summary>
 
-| File                                                                                                                                     | Summary                                                                                                                                                                                                                                                                         |
-|------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [use-toggle.test.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/ui/use-toggle.test.ts)           | Ensures default false value, toggles to true, toggles back to false, and initializes with custom value. Supports critical functionality validation within the repos custom hook component architecture.                                                                         |
-| [use-window-size.test.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/ui/use-window-size.test.ts) | Tests window size hook returns current size and updates on resize.                                                                                                                                                                                                              |
-| [use-toggle.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/ui/use-toggle.ts)                     | Enables toggling boolean state with a custom hook offering current value and toggle function. Supports React components integration for easy state management.                                                                                                                  |
-| [use-window-size.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/ui/use-window-size.ts)           | Generates current window size data as a custom React hook in the repositorys UI module.                                                                                                                                                                                         |
-| [use-dark-mode.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/ui/use-dark-mode.ts)               | Manages dark mode state using localStorage, offering a toggle function. Enables dynamic theming in React components.                                                                                                                                                            |
-| [use-media-query.test.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/ui/use-media-query.test.ts) | Tests media query hook using renderHook, validates matching condition, updates on query change, and removes listener on unmount. Enhances user interface responsiveness and ensures accurate media query handling for dynamic layout adjustments.                               |
-| [use-media-query.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/ui/use-media-query.ts)           | Enables responsive design with a custom hook monitoring media queries in a React component, simplifying layout adaptability based on screen size. Synergizes seamlessly within the repositorys architecture to enhance user experience and interface responsiveness.            |
-| [use-dark-mode.test.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/ui/use-dark-mode.test.ts)     | Tests `useDarkMode` hook for initializing with false value, toggling dark mode, and updating localStorage, as well as reading initial state from localStorage. Hosted in src/hooks/ui/use-dark-mode.test.ts to ensure proper functionality within the repositorys architecture. |
+| File                                                                                                                                     | Summary                                                                                                                                                                                                                                                |
+|------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [use-toggle.test.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/ui/use-toggle.test.ts)           | Validates useToggle hook for initializing toggle state, toggling between true and false values, and setting a custom initial value. The tests ensure correct functionality and behavior.                                                               |
+| [use-window-size.test.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/ui/use-window-size.test.ts) | Returns current window size and updates on resize.                                                                                                                                                                                                     |
+| [use-toggle.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/ui/use-toggle.ts)                     | Enables toggling boolean states in React components using a custom hook. Directly accessible in the `hooks` directory, it simplifies managing the state by returning an array with the current value and a toggle function.                            |
+| [use-window-size.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/ui/use-window-size.ts)           | Enables retrieving current window size in React components. The useWindowSize hook in the src/hooks/ui directory dynamically updates width and height based on window resizing, enhancing UI responsiveness.                                           |
+| [use-dark-mode.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/ui/use-dark-mode.ts)               | Manages dark mode using localStorage. Returns current state and toggle function for dark/light mode in React components.                                                                                                                               |
+| [use-media-query.test.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/ui/use-media-query.test.ts) | Detect matches/non-matches, update status on query change, and remove listeners on unmount.                                                                                                                                                            |
+| [use-media-query.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/ui/use-media-query.ts)           | Enables monitoring of media queries in React components to dynamically adjust UI based on screen size. It offers a reusable `useMediaQuery` hook that returns a boolean indicating if the query matches, simplifying responsive design implementation. |
+| [use-dark-mode.test.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/ui/use-dark-mode.test.ts)     | Initializes with default value, toggles dark mode & updates localStorage, and reads initial state from localStorage. Crucial for ensuring correct functionality of dark mode feature in the React app.                                                 |
 
 </details>
 
 <details closed><summary>src.hooks.network</summary>
 
-| File                                                                                                                              | Summary                                                                                                                                                                                                  |
-|-----------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [use-fetch.test.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/network/use-fetch.test.ts) | Tests the useFetch hooks functionality for fetching data, handling fetch errors, and managing non-200 responses within the React Hook Extended Kit repositorys architecture.                             |
-| [use-fetch.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/network/use-fetch.ts)           | Enables fetching data from an API with custom options using React hooks. Manages data, error, and loading states. Facilitates easy integration into components for seamless data retrieval and handling. |
+| File                                                                                                                              | Summary                                                                                                                                                                                                                                                  |
+|-----------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [use-fetch.test.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/network/use-fetch.test.ts) | Tests the useFetch hook for fetching data, handling errors, and non-200 responses. Mocks global fetch function and asserts data, loading state, and errors returned by the hook.                                                                         |
+| [use-fetch.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/network/use-fetch.ts)           | Enables fetching data from an API with loading and error handling. Achieves this by providing a custom hook `useFetch` with parameters for URL and options. Returns an object with data, error, and loading states for easy integration into components. |
 
 </details>
 
 <details closed><summary>src.hooks.utils</summary>
 
-| File                                                                                                                                    | Summary                                                                                                                                                                                                                  |
-|-----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [use-clipboard.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/utils/use-clipboard.ts)           | Implements a custom hook for clipboard actions, allowing text copying and reading from the clipboard. Supports integration with React components for seamless clipboard interactions.                                    |
-| [use-clipboard.test.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/utils/use-clipboard.test.ts) | Tests clipboard operations including text copying and reading. Renders hook to interact with clipboard API. Verifies correct functionality of useClipboard hook in the React projects extended kit repository.           |
-| [use-previous.test.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/utils/use-previous.test.ts)   | Tests the usePrevious hook returning previous values, handling initial render, updates, and objects, ensuring correct behavior in tracking and returning the previous value.                                             |
-| [use-previous.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/utils/use-previous.ts)             | Enables tracking and retrieving the previous value of a variable in React components. Enhances state management by providing access to the previous variable state, enhancing component interaction and user experience. |
+| File                                                                                                                                                            | Summary                                                                                                                                                                                                                                                                       |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [use-intersection-observer.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/utils/use-intersection-observer.ts)           | Enables observing element visibility using Intersection Observer API in React. Returns a reference to the observed element and a boolean for visibility status. Helps lazy load images efficiently in the React application.                                                  |
+| [use-idle.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/utils/use-idle.ts)                                             | Detects user inactivity using custom hook `useIdle` which returns boolean state. Monitors mouse/keyboard events to reset timeout, signaling user idleness. Key feature in `react_hook_extended_kit` for managing idle state in components dynamically.                        |
+| [use-idle.test.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/utils/use-idle.test.ts)                                   | Tests use `useIdle` hooks functionality to confirm initial active state, transition to idle after timeout, reset on activity, and cleanup on unmount. Leveraging `@testing-library/react-hooks` and Jests fake timers ensure accurate verification of idle state transitions. |
+| [use-event-listener.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/utils/use-event-listener.ts)                         | Enables event listener management in React components. Attaches event handlers to specified elements to trigger actions based on events. Facilitates clean and efficient handling of user interactions within the parent repositorys architecture.                            |
+| [use-clipboard.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/utils/use-clipboard.ts)                                   | Implements a custom hook for clipboard operations, providing functions to copy text to the clipboard and read text from it. Streamlines clipboard interactions in React components and enhances user experience.                                                              |
+| [use-clipboard.test.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/utils/use-clipboard.test.ts)                         | Tests copying and reading text from clipboard are covered by `useClipboard` hook in the parent repository. The tests validate the functionality using `@testing-library/react-hooks`. This contributes to ensuring the reliability of the clipboard interaction feature.      |
+| [use-geolocation.test.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/utils/use-geolocation.test.ts)                     | Tests the useGeolocation hook by simulating successful and failed geolocation requests. Verifies default state, updates with position on success, and handles errors. Also confirms clearing of watch on unmount.                                                             |
+| [use-intersection-observer.test.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/utils/use-intersection-observer.test.ts) | Tests use a mock IntersectionObserver to validate the useIntersectionObserver hook behavior. Tests include element observation, intersection detection, option updates, and proper unobserving and disconnecting.                                                             |
+| [use-event-listener.test.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/utils/use-event-listener.test.ts)               | Triggers handler on event, cleans up on unmount, supports specific element events, updates handler changes, and handles window events by default. Part of the react_hook_extended_kit repositorys architecture.                                                               |
+| [use-previous.test.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/utils/use-previous.test.ts)                           | Tests the `usePrevious` hook functionality by ensuring it returns the correct values before and after updates, including handling objects.                                                                                                                                    |
+| [use-geolocation.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/utils/use-geolocation.ts)                               | Enables tracking user geolocation with customizable options. Implements a geolocation hook returning coordinates and errors. Facilitates real-time position updates using browser geolocation API.                                                                            |
+| [use-previous.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/utils/use-previous.ts)                                     | Enables tracking and retrieving the previous value of a variable using a custom React hook. Facilitates monitoring state changes and building dynamic UI components within the open-source React Hook Extended Kit repository structure.                                      |
 
 </details>
 
 <details closed><summary>src.hooks.state</summary>
 
-| File                                                                                                                                | Summary                                                                                                                                                                                                                  |
-|-------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [use-counter.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/state/use-counter.ts)           | Defines a custom hook providing a counter state with increment, decrement, and reset functions. Facilitates reusability for React components dealing with count management in the extended kit repositorys architecture. |
-| [use-counter.test.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/state/use-counter.test.ts) | Tests `useCounter` hook for initializing, incrementing, decrementing, and resetting a counter.                                                                                                                           |
+| File                                                                                                                                | Summary                                                                                                                                                                                                                                                          |
+|-------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [use-counter.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/state/use-counter.ts)           | Enables creation of a counter state with increment, decrement, and reset functions. Supports initializing value and returns current count with corresponding actions. Ideal for managing counter UI components in React applications within the hooks directory. |
+| [use-counter.test.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/state/use-counter.test.ts) | Initializes at 0, increments, decrements, and resets count. Integrated with @testing-library/react-hooks for robust testing within the React Hook Extended Kit repository.                                                                                       |
 
 </details>
 
 <details closed><summary>src.hooks.storage</summary>
 
-| File                                                                                                                                              | Summary                                                                                                                                                                                           |
-|---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [use-local-storage.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/storage/use-local-storage.ts)           | Enables synchronization of state with localStorage using custom hooks. Stores values under specified keys and handles initial values if key is absent. Simplifies data management for components. |
-| [use-local-storage.test.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/storage/use-local-storage.test.ts) | Initializes with default value, updates localStorage, retrieves value, handles errors accessing localStorage, and handles errors setting localStorage.                                            |
+| File                                                                                                                                                  | Summary                                                                                                                                                                                                                                  |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [use-local-storage.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/storage/use-local-storage.ts)               | Enables synchronization of state with localStorage using a custom hook. Maintains values under specified keys, providing getters and setters for updates. Aids in persisting and manipulating data for React components.                 |
+| [use-local-storage.test.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/storage/use-local-storage.test.ts)     | Tests `useLocalStorage` hook for initializing, updating, and retrieving values from localStorage, handling errors gracefully. Maintains expected behavior and error scenarios of the hook within the React applications hooks directory. |
+| [use-session-storage.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/storage/use-session-storage.ts)           | Enables synchronization of state with sessionStorage by storing and retrieving values based on a specified key. Offers a function to update and maintain state. Ideal for persisting user data in React components.                      |
+| [use-session-storage.test.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/storage/use-session-storage.test.ts) | Tests useSessionStorage hook for initialization, updates, retrieval, and error handling. Validates proper sessionStorage behavior with different value scenarios, ensuring robust data handling in the React application.                |
 
 </details>
 
 <details closed><summary>src.hooks.timing</summary>
 
-| File                                                                                                                                   | Summary                                                                                                                                                                                                                           |
-|----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [use-interval.test.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/timing/use-interval.test.ts) | Verifies callback execution at intervals, stops interval when delay is null, and handles changing delay values. Enhances reliability of the timing functionality within the repositorys architecture.                             |
-| [use-interval.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/timing/use-interval.ts)           | Enables setting up intervals in React components. Manages interval execution based on provided callback and delay. Supports pausing the interval by passing null as delay. Facilitates real-time updates without manual handling. |
+| File                                                                                                                                   | Summary                                                                                                                                                                             |
+|----------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [use-interval.test.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/timing/use-interval.test.ts) | Ensures callback is executed at intervals, stops interval with null delay, and handles changing delay values. Maintains expected callback invocation counts in different scenarios. |
+| [use-interval.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/timing/use-interval.ts)           | Enables interval setup with callback execution and delay control in React projects. Facilitates seamless handling of repeated actions.                                              |
 
 </details>
 
 <details closed><summary>src.hooks.dom</summary>
 
-| File                                                                                                                                          | Summary                                                                                                                                                                                                     |
-|-----------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [use-click-outside.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/dom/use-click-outside.ts)           | Enables detection of clicks outside an element with a customizable callback. Facilitates efficient handling of outside clicks in React components, enhancing user experience.                               |
-| [use-click-outside.test.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/dom/use-click-outside.test.ts) | Tests `useClickOutside` hook by simulating clicks inside/outside an element, ensuring correct event handling. It validates the behavior of the hook when detecting clicks outside of the specified element. |
+| File                                                                                                                                          | Summary                                                                                                                                                                                                                                                                               |
+|-----------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [use-click-outside.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/dom/use-click-outside.ts)           | Implements a custom hook `useClickOutside` detecting clicks outside a specified element. Ensures accessibility and enhances UX by executing a callback when a click occurs outside the component, fostering a seamless user experience in React applications.                         |
+| [use-click-outside.test.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/dom/use-click-outside.test.ts) | Tests use `useClickOutside` hook to verify click behavior. First test checks handler call when clicking outside element. Second test ensures handler isnt called when clicking inside element. Core functionality validated through rendering hooks and simulating user interactions. |
 
 </details>
 
 <details closed><summary>src.hooks.performance</summary>
 
-| File                                                                                                                                        | Summary                                                                                                                                                                                                                                                   |
-|---------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [use-throttle.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/performance/use-throttle.ts)           | Enables throttling of input value changes in React components for improved performance. Throttle rate is set in milliseconds. Facilitates smoother user interactions and reduces unnecessary rendering. Located in the hooks directory of the repository. |
-| [use-debounce.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/performance/use-debounce.ts)           | Enables debouncing values in React components for improved performance**. Uses a custom hook to delay value updates, optimizing user input and UI responsiveness. Ideal for scenarios requiring controlled input behavior in real-time applications.      |
-| [use-debounce.test.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/performance/use-debounce.test.ts) | Tests debounce functionality in useDebounce hook with renderHook, act, and fake timers for accurate value updates.                                                                                                                                        |
-| [use-throttle.test.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/performance/use-throttle.test.ts) | Tests the `useThrottle` hooks throttling behavior under different scenarios. Verifies value updates, timeouts, and rapid changes, ensuring correct throttling and unmount functionality. Handles immediate updates when remaining time is zero.           |
+| File                                                                                                                                        | Summary                                                                                                                                                                                                                                                                  |
+|---------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [use-throttle.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/performance/use-throttle.ts)           | Defines a custom throttle hook in the react_hook_extended_kit repo. Throttles a value input at a specified limit to enhance performance. Key features include handling value updates and managing timing constraints, ensuring optimal reactivity in user interfaces.    |
+| [use-debounce.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/performance/use-debounce.ts)           | Enables debouncing of a value in React using a custom hook with a specified delay. Facilitates smoother user input handling to optimize performance.                                                                                                                     |
+| [use-debounce.test.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/performance/use-debounce.test.ts) | Tests debouncing functionality in useDebounce hook through value updates and timer manipulation.                                                                                                                                                                         |
+| [use-throttle.test.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/performance/use-throttle.test.ts) | Tests the throttling behavior of the `useThrottle` hook, ensuring it delays updates based on specified limits and handles rapid value changes correctly. Also validates that timeouts are cleared on unmount and immediate updates work when the remaining time is zero. |
 
 </details>
 
 <details closed><summary>src.hooks.effects</summary>
 
-| File                                                                                                                                              | Summary                                                                                                                                                                                                                   |
-|---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [use-online-status.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/effects/use-online-status.ts)           | Enables monitoring browser online status. Tracks and updates online status using React hooks. Enhances components with real-time online status display. Essential for responsive web applications in the React ecosystem. |
-| [use-online-status.test.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/effects/use-online-status.test.ts) | Validates online/offline status functionality in the `useOnlineStatus` hook. Renders hook in online and offline states to confirm correct boolean outputs.                                                                |
+| File                                                                                                                                                  | Summary                                                                                                                                                                                                                                                         |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [use-online-status.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/effects/use-online-status.ts)               | Enables tracking of browser online status with a custom hook. Maintains state and event listeners for online/offline changes. Crucial for real-time online status visualization in React components within the repositorys architecture.                        |
+| [use-page-visibility.test.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/effects/use-page-visibility.test.ts) | Tests the `usePageVisibility` hook to ensure it accurately detects page visibility changes. Verifies correct return values for both visible and hidden page states.                                                                                             |
+| [use-online-status.test.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/effects/use-online-status.test.ts)     | Tests for `useOnlineStatus` hook validate online/offline status accuracy. Simulates online/offline events to assert correct boolean return. Demonstrates expected behavior under network status changes within the parent repositorys React hooks architecture. |
+| [use-page-visibility.ts](https://github.com/Romain-Portanguen/react_hook_extended_kit/blob/master/src/hooks/effects/use-page-visibility.ts)           | Enables tracking page visibility with a custom hook in the React project. Monitors if the page is visible and adjusts video playback accordingly. Enhances user experience by controlling video behavior based on page visibility status.                       |
 
 </details>
 
@@ -227,7 +232,7 @@ React Hook Extended Kit is a comprehensive utility library aimed at enhancing Re
 
 **System Requirements:**
 
-- **TypeScript**: `version x.y.z`
+* **TypeScript**: `version x.y.z`
 
 ### ⚙️ Installation
 
@@ -240,13 +245,11 @@ React Hook Extended Kit is a comprehensive utility library aimed at enhancing Re
 > ```
 >
 > 2. Change to the project directory:
->
 > ```console
 > $ cd react_hook_extended_kit
 > ```
 >
 > 3. Install the dependencies:
->
 > ```console
 > $ npm install
 > ```
@@ -256,7 +259,6 @@ React Hook Extended Kit is a comprehensive utility library aimed at enhancing Re
 <h4>From <code>source</code></h4>
 
 > Run react_hook_extended_kit using the command below:
->
 > ```console
 > $ npm run build && node dist/index.js
 > ```
@@ -264,7 +266,6 @@ React Hook Extended Kit is a comprehensive utility library aimed at enhancing Re
 ### 🧪 Tests
 
 > Run the test suite using the command below:
->
 > ```console
 > $ npm run test
 > ```
@@ -284,33 +285,24 @@ Contributions are welcome! Here are several ways you can contribute:
 
 1. **Fork the Repository**: Start by forking the project repository to your github account.
 2. **Clone Locally**: Clone the forked repository to your local machine using a git client.
-
    ```sh
    git clone https://github.com/Romain-Portanguen/react_hook_extended_kit
    ```
-
 3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
-
    ```sh
    git checkout -b new-feature-x
    ```
-
 4. **Make Your Changes**: Develop and test your changes locally.
 5. **Commit Your Changes**: Commit with a clear message describing your updates.
-
    ```sh
    git commit -m 'Implemented new feature x.'
    ```
-
 6. **Push to github**: Push the changes to your forked repository.
-
    ```sh
    git push origin new-feature-x
    ```
-
 7. **Submit a Pull Request**: Create a PR against the original project repository. Clearly describe the changes and their motivations.
 8. **Review**: Once your PR is reviewed and approved, it will be merged into the main branch. Congratulations on your contribution!
-
 </details>
 
 <details closed>
@@ -322,6 +314,7 @@ Contributions are welcome! Here are several ways you can contribute:
    </a>
 </p>
 </details>
+
 
 ---
 
